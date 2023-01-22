@@ -13,3 +13,37 @@ body{
     color: #FFC850;
     
 }
+.tea-cup-gradient-s{
+    background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+}
+
+/* section two  */
+.a{
+    background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+    opacity: 0.1;
+    border-radius: 10px;
+}
+.b{
+    background: rgba(230, 166, 35, 0.1);
+}
+.c{
+    background: rgba(87, 118, 57, 0.1);
+}
+.d{
+    background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* section three  */
+.section-three-gradient-s{
+    background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+}
+.section-three-gradient-btn-s{
+    color:  #FF0000;
+}
+
+/* section four  */
+#go{
+    position: absolute;
+    top: 20px;
+    bottom: 90px;
+}

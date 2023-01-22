@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="w-[90%] mx-auto">
     <!-----------------
     header start here
     ------------------->
@@ -44,8 +44,98 @@
     <!-----------------
     main start here
     ------------------->
-    <section class="section-one">
-        <h1>Bangladesh</h1>
+    <!-- section one  -->
+    <section class="section-one mx-10 mb-10 space-y-10">
+        <div class="text-center space-x-10">
+            <h1 class="font-extrabold text-5xl title-color-s mb-6">Our Featured Products</h1>
+            <p class="text-color-s font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <div class="cards-s grid text-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div class="card-s tea-cup-gradient-s space-y-3 bg-slate-100 rounded p-8">
+                <div><img class="mx-auto" src="images/tea-1.png" alt=""></div>
+                <h2 class="font-extrabold title-color-s text-2xl">Milk Tea</h2>
+                <p class="font-semibold text-color-s text-base">Creamer could be replaced by <br> fresh milk</p>
+            </div>
+            <div class="card-s tea-cup-gradient-s space-y-3 bg-slate-100 rounded p-8">
+                <div><img class="mx-auto" src="images/tea-2.png" alt=""></div>
+                <h2 class="font-extrabold title-color-s text-2xl">Black Tea</h2>
+                <p class="font-semibold text-color-s text-base">Creamer could be replaced by <br> fresh milk</p>
+            </div>
+            <div class="card-s tea-cup-gradient-s space-y-3 bg-slate-100 rounded p-8">
+                <div><img class="mx-auto" src="images/tea-3.png" alt=""></div>
+                <h2 class="font-extrabold title-color-s text-2xl">Lemon Tea</h2>
+                <p class="font-semibold text-color-s text-base">Creamer could be replaced by <br> fresh milk</p>
+            </div>
+            <div class="card-s tea-cup-gradient-s space-y-3 bg-slate-100 rounded p-8">
+                <div><img class="mx-auto" src="images/tea-4.png" alt=""></div>
+                <h2 class="font-extrabold title-color-s text-2xl">Green Tea</h2>
+                <p class="font-semibold text-color-s text-base">Creamer could be replaced by <br> fresh milk</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-two  -->
+    <section class="section-two mx-10 my-40 grid gap-y-10 md:gap-x-10 grid-cols-1 md:grid-cols-2">
+         <div class="section-two-left grid gap-4 grid-cols-2">
+            <div class=" rounded h-32 a "></div>
+            <div class=" rounded row-span-3 b"><img class="mx-auto p-4" src="images/fresh-1.png" alt=""></div>
+            <!-- <div class="bg-slate-500 ">31</div> -->
+            <div class="c rounded row-span-3 c"><img class="mx-auto p-4" src="images/fresh-2.png" alt=""></div>
+            <div class="d rounded h-32 d"></div>
+            <!-- <div class="bg-slate-500">61</div> -->
+         </div>
+         <div class="section-two-right">
+            <h2 class="font-extrabold text-5xl title-color-s mb-5">Great Tea, Freshly <br> Presented</h2>
+            <p class="text-color-s mb-5">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            <p class="title-color-s text-xl font-extrabold mb-1">Unique Taste</p>
+            <p class="text-color-s mb-4">A Unique and different style from other teapots gives a <br> luxurious and minimalist impression</p>
+            <p class="title-color-s text-xl font-extrabold mb-1">Premium Quality</p>
+            <p class="text-color-s">Premium Quality that makes tea more elegant and more <br> durable when you use it.</p>
+         </div>
+    </section>
+
+    <!-- section-four  -->
+    <section class="section-three rounded my-20 mx-3 md:mx-20  p-2 md:p-20 section-three-gradient-s grid gap-10 justify-center items-center grid-cols-1 md:grid-cols-2">
+        <div>
+            <h2 class="font-extrabold text-5xl text-white mb-6">Meet Our Super <br> Clients</h2>
+            <p class="font-medium text-slate-100 mb-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <button class="section-three-gradient-btn-s bg-slate-50 font-semibold px-6 py-3 rounded">Show All</button>
+        </div>
+        <div class="space-y-10 relative border">
+            <div class="z-10">
+                <div class="ml-20 mt-12">
+                    <div class="bg-slate-100 opacity-50 rounded p-8">
+                        <p class="font-normal text-color-s">We are providing the best and suitable home <br> insurance services for the people who are <br> interested to treatment</p>
+                        <p class="font-semibold title-color-s">sadik sadi</p>
+                        <p class="font-normal text-color-s">Businessman</p>
+                    </div>
+                </div>
+                <div class="left-14 opacity-75" id="go"><img class="border-4 border-white rounded-full" src="images/client.png" alt=""></div>
+            </div>
+
+            <div class="absolute top-20 left-0 z-40 ">
+                <div class="ml-10 mt-12">
+                    <div class="bg-slate-100 rounded p-8 ">
+                        <p class="font-normal text-color-s">We are providing the best and suitable home <br> insurance services for the people who are <br> interested to treatment</p>
+                        <p class="font-semibold title-color-s">sadik sadi</p>
+                        <p class="font-normal text-color-s">Businessman</p>
+                    </div>
+                </div>
+                <div class="left-5" id="go"><img class="border-4 border-white rounded-full" src="images/client.png" alt=""></div>
+            </div>
+
+
+            <div class="z-20">
+                <div class="ml-20">
+                    <div class="bg-slate-100 opacity-50 rounded p-8">
+                        <p class="font-normal text-color-s">We are providing the best and suitable home <br> insurance services for the people who are <br> interested to treatment</p>
+                        <p class="font-semibold title-color-s">sadik sadi</p>
+                        <p class="font-normal text-color-s">Businessman</p>
+                    </div>
+                </div>
+                <div class="absolute bottom-36 left-10 "><img class="border-4 border-white rounded-full" src="images/client.png" alt=""></div>
+            </div>
+        </div>
     </section>
     <!-----------------
     main end here
